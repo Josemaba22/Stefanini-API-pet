@@ -7,9 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Pet {
+public class CategoryDTO {
 
-  public Long id;
-  public String name;
-  public String status;
+  private Long id;
+  private String name;
 }
