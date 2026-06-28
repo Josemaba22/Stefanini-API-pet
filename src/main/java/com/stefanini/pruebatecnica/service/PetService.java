@@ -1,8 +1,10 @@
 package com.stefanini.pruebatecnica.service;
 
-import com.stefanini.pruebatecnica.dto.PetResponse;
+import com.stefanini.pruebatecnica.dto.PetDTO;
 
 public interface PetService {
 
-  public PetResponse findById(Long petId);
+  public PetDTO findById(Long petId);
+
+  public PetDTO save(PetDTO petDTO);
 }

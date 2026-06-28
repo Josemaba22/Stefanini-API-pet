@@ -10,7 +10,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class PetResponse {
+public class PetDTO {
 
   private Long id;
   private CategoryDTO category;
